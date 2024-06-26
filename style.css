@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(33, 42, 43);
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  margin: 0px;
+}
+
+.container-header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  background-color: blueviolet;
+  object-fit: contain;
+}
+
+.container-main {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main {
+  width: 100%;
+  background-color: rgb(94, 190, 132);
+}
+
+.container-navigation {
+  position: relative;
+  height: 94vh;
+  background-color: blanchedalmond;
+}
+
+.container-footer {
+  position: relative;
+  min-height: 24px;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+}  
